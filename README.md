@@ -1,3 +1,16 @@
+Steps Taken:
+
+Data Import
+Data Cleaning
+Data Exploration
+Comparable SQL Analysis
+Tableau Visualization
+
+
+FINAL Observation
+Notable findings include substantial ADR spikes on January 7, 2015, and a peak in November, indicating seasonal patterns. Transient-Party customers dominate revenue, emphasizing the need for strategic alignment. Corporate bookings lead, while Travel Agents/Operators (TA/TO) play a significant role. Room type occupancy analysis reveals November as a peak period, with Room A being most occupied. Average Room Rate exhibits an 85.98% increase from 2015 to 2017, underscoring pricing dynamics. The dataset also highlights trends in average length of stay and cancellation rates. Count of bookings by country identifies Portugal (PRT) as the leader, contributing 37.79% of total bookings. In summary, this dataset provides a rich source for strategic decision-making, customer-centric approaches, and revenue optimization in the dynamic hospitality industry.
+
+Entire process flow
 # Hotel-resevation-dataset
 The hotel reservation dataset offers a detailed exploration of booking dynamics, customer behaviors, and revenue patterns 
 The hotel reservation dataset offers a detailed exploration of booking dynamics, customer behaviors, and revenue patterns within the hospitality industry. Spanning a timeframe from 2015 to 2017, the dataset encompasses diverse dimensions of hotel operations, shedding light on occupancy rates, pricing dynamics, booking channels, room types, and cancellation trends.
@@ -57,8 +70,7 @@ Legend: Distribution channel names
 Here's a simple illustration of the DAX code i used  to create a count of bookings by distribution channel:
 
 
-Analysis: The distribution channel shows 
-
+Process:
 BookingChannelsCount = 
 SUMMARIZE(
      hotel_bookings,
@@ -79,7 +91,7 @@ CALCULATE(
 which then worked.
 
 
-2b. Analysis of Booking Channels:
+ Analysis of Booking Channels:
 
  Overview:
    - The Booking Channels analysis provides insights into how hotel bookings are distributed among various channels. The channels include Direct bookings, Travel Agents/Operators (TA/TO), and Corporate bookings, among others.
@@ -93,6 +105,15 @@ Direct Bookings: Direct bookings, possibly through the hotel's website or other 
 
 GDS Contribution: Global Distribution System (GDS) shows a smaller share at 0.46%. This might represent a niche market or specific partnerships.
 
+Count of Bookings by Country:
+The dataset highlights booking counts by country, with Portugal (PRT) leading at 82, followed by Austria (AUT) and France (FRA). PRT contributes significantly, accounting for 37.79% of total bookings.
+
+Analysis: Countbooking by country
+
+CountBookings was highest for PRT at 82, followed by AUT and FRA.﻿﻿
+﻿﻿
+﻿﻿PRT accounted for 37.79% of CountBookings.﻿﻿
+
 Corporate Insights:
    - The dominance of Corporate bookings suggests a strong business clientele. Consider tailoring marketing strategies and amenities to cater to the needs of corporate guests. Corporate partnerships and loyalty programs may enhance this segment.
 
@@ -105,7 +126,7 @@ TA/TO Collaboration:
 GDS Niche Market:
    - The low percentage from GDS indicates a niche market. Explore opportunities to expand this segment, possibly by identifying the unique needs of GDS users and tailoring offerings accordingly.
 
-7. Strategic Decision-Making:
+ Strategic Decision-Making:
    - Use these insights to inform strategic decisions. Allocate resources, marketing efforts, and operational enhancements based on the strengths and opportunities identified in each booking channel.
 
  Continuous Monitoring:
@@ -113,17 +134,13 @@ GDS Niche Market:
 
 Recommendations:
    - Strengthen corporate partnerships through personalized services and loyalty programs.
-
-
-
    - Collaborate closely with TA/TO, offering attractive packages and incentives.
    - Invest in marketing strategies to promote direct bookings.
    - Explore opportunities to expand the GDS segment with targeted offerings.
 
-10. Conclusion:
+ Conclusion:
    - The Booking Channels analysis provides a comprehensive understanding of how different channels contribute to hotel 
 bookings. Leveraging these insights will empower the hotel to optimize strategies, enhance guest experiences, and drive overall business success.
-
 
 
 
@@ -157,8 +174,6 @@ is_canceled:
 To filter out canceled bookings and focus on actual occupancy.
 Using these columns, you can filter data based on the booked room type and create a stacked bar chart where each bar represents a specific time period (month, week, or day), and the segments within the bar represent different room types.
 
-
-
 X-Axis: Time (Year/Month/Week/Day)
 Y-Axis: Count of Bookings(which is Total Bookings = COUNTROWS('YourTableName') or TotalBookings = SUM(YourTable[is_canceled])
 I went with the latter to field off canceled bookings.
@@ -168,7 +183,7 @@ For example: from the stacked bar, november has the most arrival /booking date a
 
 
 
-7. Average Room Rate Trends:
+6. Average Room Rate Trends:
 The dataset tracks the trajectory of Average Room Rate, indicating a substantial 85.98% increase from 2015 to 2017. Steeper inclines in 2015 and 2017 underline the significance of pricing dynamics in revenue optimization.
 
 Average room rate analysis: 
@@ -182,7 +197,7 @@ Average Room Rate trended up, resulting in a 85.98% increase between 2015 and 20
 
 
 
-9. Average Length of Stay and Cancellation Rates:
+7. Average Length of Stay and Cancellation Rates:
 Analysis of the average length of stay unveils an upward trend, whereas cancellation rates show a noticeable increase over the observed period. These metrics underscore the importance of flexible booking policies and customer engagement strategies.
 
 Process flow/Analysis: Average Length of Stay Over Time:
@@ -195,18 +210,17 @@ Process flow/Analysis: Average Length of Stay Over Time:
 ﻿﻿
 ﻿﻿Sum of stays_in_week_nights jumped from 4 to 128 during its steepest incline between Wednesday, November 11, 2015 and Tuesday, November 17, 2015.﻿﻿
 ﻿﻿
-﻿5b.
-﻿Sum of stays_in_weekend_nights trended down, resulting in a 90.84% decrease between 2015 and 2017.﻿﻿
+﻿7b.
+﻿sum of stays_in_weekend_nights trended down, resulting in a 90.84% decrease between 2015 and 2017.﻿﻿
 ﻿﻿
 ﻿﻿Sum of stays_in_weekend_nights started trending down on 2015, falling by 90.84% (248) in 2 years.﻿﻿
 ﻿﻿
-﻿﻿[]﻿﻿
-﻿﻿
+﻿﻿[]﻿﻿﻿﻿
 ﻿﻿Sum of stays_in_weekend_nights dropped from 273 to 25 during its steepest decline between 2015 and 2017.﻿﻿
 ﻿﻿
 ﻿
 
-6.Cancellation Rates:**
+8.Cancellation Rates:**
    - bar chart displaying the percentage of bookings that were canceled.
  
 ﻿Cancellation Rate trended up, resulting in a 177.93% increase between 2015 and 2017.﻿﻿
@@ -217,18 +231,6 @@ Process flow/Analysis: Average Length of Stay Over Time:
 ﻿﻿
 ﻿﻿Cancellation Rate jumped from 11.15 to 31 during its steepest incline between 2015 and 2017.﻿﻿
 
-
-
-
-
-11. Count of Bookings by Country:
-The dataset highlights booking counts by country, with Portugal (PRT) leading at 82, followed by Austria (AUT) and France (FRA). PRT contributes significantly, accounting for 37.79% of total bookings.
-
-Analysis: Countbooking by country
-
-CountBookings was highest for PRT at 82, followed by AUT and FRA.﻿﻿
-﻿﻿
-﻿﻿PRT accounted for 37.79% of CountBookings.﻿﻿
 
 
 
