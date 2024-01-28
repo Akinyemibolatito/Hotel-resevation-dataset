@@ -22,7 +22,7 @@ the highest spike in revenue was recorded on the 7th of january 2015at higher th
  
 Looking through for seasonal patterns, November which is close to the christmas celebration period seems like the highest time for booking with the highest revenue generated closely followed by january. The december periods seemed less engaging which is likely because people spend the festive periods with family.
 
-This Pricing Dynamics should be shuffled between those peak and low months to ]attract more bookings at low peak periods.
+This Pricing Dynamics should be shuffled between those peak and low months to attract more bookings at low peak periods.
 
 ADR BY ASSIGNED ROOM TYPE AND type of customer: The trasient party customers contribute the highest to the revenue of the company, closely followed by the trainsent customers and they mostly order for room A, WHICH IN TURN ENDS UP BEING THE most revenue generating room. the least generating room,at more than 5k revenue generationG is still booked by trasient party customers however it degenerates way less than 2k 
 
