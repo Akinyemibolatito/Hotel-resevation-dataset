@@ -1,10 +1,10 @@
 Steps Taken:
 
-Data Import
-Data Cleaning
-Data Exploration
-Comparable SQL Analysis
-Tableau Visualization
+Data Import,
+Data Cleaning,
+Data Exploration,
+Comparable SQL Analysis,
+Tableau Visualization,
 
 
 FINAL Observation
@@ -12,7 +12,6 @@ Notable findings include substantial ADR spikes on January 7, 2015, and a peak i
 
 Entire process flow
 # Hotel-resevation-dataset
-The hotel reservation dataset offers a detailed exploration of booking dynamics, customer behaviors, and revenue patterns 
 The hotel reservation dataset offers a detailed exploration of booking dynamics, customer behaviors, and revenue patterns within the hospitality industry. Spanning a timeframe from 2015 to 2017, the dataset encompasses diverse dimensions of hotel operations, shedding light on occupancy rates, pricing dynamics, booking channels, room types, and cancellation trends.
 
 1. Average Daily Rate (ADR) Trends:
