@@ -25,7 +25,7 @@ Looking through for seasonal patterns, November which is close to the christmas 
 
 This Pricing Dynamics should be shuffled between those peak and low months to attract more bookings at low peak periods.
 
-ADR by assigned Room type and type of customer: The trasient party customers contribute the highest to the revenue of the company, closely followed by the trainsent customers and they mostly order for room A, WHICH IN TURN ENDS UP BEING THE most revenue generating room. the least generating room,at more than 5k revenue generationG is still booked by trasient party customers however it degenerates way less than 2k 
+ADR by assigned Room type and type of customer: The trasient party customers contribute the highest to the revenue of the company, closely followed by the trainsent customers and they mostly order for room A, which in turn ends up being the most revenue generating room, the least generating room,at more than 5kn revenue generationG is still booked by trasient party customers however it degenerates way less than 2k 
 
 
 2. ADR by Assigned Room Type :
@@ -110,7 +110,7 @@ The dataset highlights booking counts by country, with Portugal (PRT) leading at
 
 Analysis: Countbooking by country
 
-CountBookings was highest for PRT at 82, followed by AUT and FRA.﻿﻿
+CountBookings was highest for PRT at 82, followed by  and FRA.﻿﻿
 ﻿﻿
 ﻿﻿PRT accounted for 37.79% of CountBookings.﻿﻿
 
