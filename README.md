@@ -16,6 +16,7 @@ The hotel reservation dataset offers a detailed exploration of booking dynamics,
 
 1. Average Daily Rate (ADR) Trends:
 The dataset unravels the temporal evolution of Average Daily Rate (ADR), exposing substantial spikes in revenue, notably on January 7, 2015. Seasonal patterns also emerge, with November standing out as a peak booking period, potentially attributed to the proximity of Christmas celebrations.
+
 ADR BY ARRIVAL DATE ANALYSIS
 Analyzing Average Daily Rate (ADR) by arrival date in a hotel reservation dataset is a key aspect of booking analysis.
 the highest spike in revenue was recorded on the 7th of january 2015at higher than 800 and could have been due to a number of reasons ,such as during special events, holidays, or peak seasons and the lowest average revenue generated was on the 7th of march 2017 at 0.
@@ -24,7 +25,7 @@ Looking through for seasonal patterns, November which is close to the christmas 
 
 This Pricing Dynamics should be shuffled between those peak and low months to attract more bookings at low peak periods.
 
-ADR BY ASSIGNED ROOM TYPE AND type of customer: The trasient party customers contribute the highest to the revenue of the company, closely followed by the trainsent customers and they mostly order for room A, WHICH IN TURN ENDS UP BEING THE most revenue generating room. the least generating room,at more than 5k revenue generationG is still booked by trasient party customers however it degenerates way less than 2k 
+ADR by assigned Room type and type of customer: The trasient party customers contribute the highest to the revenue of the company, closely followed by the trainsent customers and they mostly order for room A, WHICH IN TURN ENDS UP BEING THE most revenue generating room. the least generating room,at more than 5k revenue generationG is still booked by trasient party customers however it degenerates way less than 2k 
 
 
 2. ADR by Assigned Room Type :
